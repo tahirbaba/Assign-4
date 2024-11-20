@@ -1,0 +1,29 @@
+/* Footer Container Styles */
+.footer {
+    background-color: #282c34; /* Dark background for contrast */
+    color: #ffffff; /* White text for readability */
+    text-align: center; /* Center-align the content */
+    padding: 20px 0; /* Vertical padding for spacing */
+    font-size: 0.9rem; /* Slightly smaller text for the footer */
+    border-top: 1px solid #444; /* Subtle top border for separation */
+    margin-top: 40px; /* Space above the footer */
+}
+
+/* Footer Text Styles */
+.footer p {
+    margin: 0; /* Remove default paragraph margins */
+    font-weight: 400; /* Normal font weight for readability */
+    line-height: 1.6; /* Increase line height for better spacing */
+    color: #bbbbbb; /* Muted white color for text */
+}
+
+/* Optional Hover Effect for Links (if added later) */
+.footer a {
+    color: #61dafb; /* Light blue for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Highlight the links */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

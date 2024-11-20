@@ -1,0 +1,39 @@
+.card {
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #e0e0e0; /* Subtle border for separation */
+    border-radius: 8px; /* Rounded corners for a soft look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 16px; /* Add spacing inside the card */
+    margin: 16px; /* Add spacing between cards */
+    max-width: 300px; /* Optional: Set a maximum width */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensify the shadow on hover */
+}
+
+.card h2 {
+    font-size: 1.5rem; /* Adjust title size */
+    color: #333333; /* Dark text for readability */
+    margin-bottom: 8px; /* Spacing below the title */
+}
+
+.card p {
+    font-size: 1rem; /* Normal text size */
+    color: #555555; /* Slightly muted text color */
+    margin-bottom: 16px; /* Spacing below the description */
+    line-height: 1.5; /* Improve readability */
+}
+
+.card a {
+    font-size: 1rem; /* Match link size with body text */
+    color: #007BFF; /* Primary blue color for the link */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the link stand out */
+}
+
+.card a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
